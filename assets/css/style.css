@@ -1,0 +1,70 @@
+body {
+    /*background-image: url('../images/rocky.png');*/
+    margin: 12;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border-bottom: 3px solid #cccccc4f;
+}
+.bigbox {
+    margin-left:200;
+    margin-right:200;
+    width:960px;
+    height: 960px;
+
+}
+.h1 {
+}
+/*
+.blankBox1 {
+    color:rgb(0, 9, 128);
+    border-bottom: 3px solid #cccccc4f;
+    float: left;
+    width: 10%;
+}*/
+
+.nameBox {
+    color:rgb(0, 9, 128);
+    border-bottom: 3px solid #cccccc4f;
+    height: 50px;
+    float: left;
+    width: 25%;
+    height: 80px;
+    color: black;
+    background:rgb(1, 184, 184);
+}
+
+.aboutBox2 {
+    color:rgb(0, 9, 128);
+    border-bottom: 3px solid #cccccc4f;
+    clear: left;
+}
+
+.box4 {
+    float: right;
+    background-color: aquamarine;
+    width: 300px;
+    height: 50px;
+    
+}
+
+
+.aboutBox {
+    background-color: aquamarine;
+    float: right;
+    width: 10%;
+    height:80px;
+}
+
+.portfolioBox {
+    background-color: aqua;
+    float: right;
+    width: 10%;
+    height: 80px;
+}
+
+.contactBox {
+    background-color: aquamarine;
+    float: right;
+    width: 10%;
+    height: 80px;
+}
