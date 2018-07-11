@@ -48,6 +48,11 @@ body {
 #mypic {
     float: left;
 }
+
+.images {
+    width: 100px;
+    height: 100px;
+}
 .p {
     float: inherit;
     color: #777777;
