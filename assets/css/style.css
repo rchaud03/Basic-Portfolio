@@ -1,70 +1,111 @@
 body {
-    /*background-image: url('../images/rocky.png');*/
-    margin: 12;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    border-bottom: 3px solid #cccccc4f;
+    background-image: url('../images/quab.png');
+    /*margin: 200;*/
+    font-family: Arial, Helvetica, sans-serif;
+    border: #dddddd;
+    /*border-bottom: 3px solid #cccccc4f;*/
 }
 .bigbox {
-    margin-left:200;
-    margin-right:200;
+    top: 40px;
+    margin: auto;
     width:960px;
-    height: 960px;
+    height: 600px;
+    border: 2px solid teal;
+    position: relative;
+    padding: 30px;
+    background-color: #ffffff;
 
 }
 .h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
-/*
-.blankBox1 {
-    color:rgb(0, 9, 128);
-    border-bottom: 3px solid #cccccc4f;
-    float: left;
-    width: 10%;
-}*/
 
 .nameBox {
     color:rgb(0, 9, 128);
     border-bottom: 3px solid #cccccc4f;
     height: 50px;
     float: left;
-    width: 25%;
+    width:400px;
     height: 80px;
-    color: black;
-    background:rgb(1, 184, 184);
+    color: white;
+    font-size:40px;
+    background:teal;
 }
 
-.aboutBox2 {
+.aboutMeBox {
     color:rgb(0, 9, 128);
-    border-bottom: 3px solid #cccccc4f;
+    /*border-bottom: 3px solid #cccccc4f;*/
+    clear: right;
+    height:80px;/*
+    width: 200px; */
+    color: teal;
     clear: left;
+    position: relative;
+    border-bottom: 1px solid gray;
 }
 
-.box4 {
-    float: right;
-    background-color: aquamarine;
-    width: 300px;
-    height: 50px;
-    
+.img {
+    padding: 10px;
+    padding-right: 20px;
 }
 
-
-.aboutBox {
-    background-color: aquamarine;
-    float: right;
-    width: 10%;
+.LinksBox {
+    float: right;*
+    width: 15%;
     height:80px;
+    line-height: 4;
 }
 
 .portfolioBox {
     background-color: aqua;
     float: right;
-    width: 10%;
+    width: 15%;
     height: 80px;
 }
 
 .contactBox {
     background-color: aquamarine;
     float: right;
-    width: 10%;
+    width: 15%;
     height: 80px;
+}
+
+.headerW {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 80px;
+    margin: auto;
+    width: 1020px;
+    background-color: white;
+}
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    height: 80;
+    background-color: white;
+    border: #cccccc;
+}
+
+.footer {
+    text-align: center;
+    position: relative;
+    height: 60px;
+    top: 100px:
+    margin: 0 auto;
+    text-align: center;
+    background-color: #666666;
+
+}
+
+.copyright {
+    bottom: 6px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #777777;
+}
+
+.border {
+    position: relative;
+    background-color: teal;
+    height: 5px;
 }

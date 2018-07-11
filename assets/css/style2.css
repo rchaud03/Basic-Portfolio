@@ -1,0 +1,40 @@
+body {
+    background-image: url('assets/images/leafy.jpeg');
+    margin: 100;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    width: 980px;
+    border: teal;
+}
+.h1 {
+    color: purple;
+}
+
+.box1 {
+    color:rgb(0, 9, 128);
+    border-bottom: 3px solid #cccccc4f;
+}
+
+.nameBox {
+    height: 100px;
+}
+
+.aboutBox2 {
+    color:rgb(0, 9, 128);
+    border-bottom: 3px solid #cccccc4f;
+
+.aboutBox {
+    background-color: aquamarine;
+    font-size: 100px;
+    float: right;
+}
+
+.Portfolio {
+    background-color: aqua;
+    float: right;
+}
+
+.Contact {
+    background-color: aquamarine;
+    float: right;
+}
