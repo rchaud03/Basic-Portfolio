@@ -30,6 +30,7 @@ body {
     color: white;
     font-size:40px;
     background:teal;
+    padding-left: 55px;
 }
 
 .aboutMeBox {
@@ -44,11 +45,14 @@ body {
     border-bottom: 1px solid gray;
 }
 
-.img {
-    padding: 10px;
-    padding-right: 20px;
+#mypic {
+    float: left;
 }
+.p {
+    float: inherit;
+    color: #777777;
 
+}
 .LinksBox {
     float: right;*
     width: 15%;
@@ -76,6 +80,7 @@ body {
     margin: auto;
     width: 1020px;
     background-color: white;
+    border-right: 2px grey;
 }
 .header {
     font-family: Georgia, 'Times New Roman', Times, serif;
